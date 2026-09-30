@@ -14,51 +14,67 @@ The goal is straightforward:
 
 ## 🧭 The RootRecord ecosystem
 
-```text
+The public organization now has a deliberately simple repository structure:
+
+~~~text
                          🌺 ROOTRECORD
                               │
-               ┌──────────────┼──────────────┐
-               │              │              │
-               ▼              ▼              ▼
-          🧠 LIBRARY      ☀️ RUNTIME      🗄️ DATABASE
-          Knowledge       Execution       Persistence
-          & Context       & Services      & Media
-               │              │              │
-               └──────────────┼──────────────┘
+                              ▼
+                    🌐 ROOTRECORD ECOSYSTEM
+                    Public umbrella / context
                               │
-                         🌐 ECOSYSTEM
+          ┌───────────────────┼───────────────────┐
+          │                   │                   │
+          ▼                   ▼                   ▼
+     🧠 LIBRARY          ☀️ RUNTIME           🗄️ DATABASE
+     Knowledge           Execution            Persistence
+     & Context           & Services           & Data
                               │
-              ┌───────────────┼───────────────┐
-              │               │               │
-             AI          Automation       Infrastructure
-              │               │               │
-              ├───────────────┼───────────────┤
-              │               │               │
-          Security         Energy       Communications
-```
+                              ▼
+                    🏝️ DISTRIBUTED SYSTEMS
+                              │
+                    ┌─────────┴─────────┐
+                    ▼                   ▼
+             Pacific Solar        US Mainland
+                Runtime              Runtime
+~~~
 
-The three canonical repositories establish the core boundary:
+### The public repositories
 
-| Repository | Purpose |
+| Repository | Role |
 | --- | --- |
+| 🌐 **[RootRecord-Ecosystem](https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem)** | Canonical public umbrella, sanitized snapshot, cross-system context, and ecosystem reference |
 | 🧠 **[RootRecord-Library](https://github.com/RootRecord-Software-Solutions/RootRecord-Library)** | Architecture, agent context, operational knowledge, guides, and work orders |
-| ☀️ **[RootRecord-Pacific-Solar-Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server)** | Primary Pacific runtime, automation, services, monitoring, security, communications, and domain execution |
-| 🗄️ **[RootRecord-Database](https://github.com/RootRecord-Software-Solutions/RootRecord-Database)** | Persistent data, media, logs, and the canonical data layout |
+| ☀️ **[RootRecord-Pacific-Solar-Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server)** | Pacific runtime, automation, services, monitoring, security, communications, and domain execution |
+| 🗄️ **[RootRecord-Database](https://github.com/RootRecord-Software-Solutions/RootRecord-Database)** | Persistent data, media, logs, telemetry, and canonical data structures |
 
-Together:
+---
 
-```text
-        RootRecord-Library
-        "What we know"
-               │
-               ▼
-   RootRecord-Pacific-Solar-Server
-        "What we run"
-               │
-               ▼
-        RootRecord-Database
-        "What we keep"
-```
+## 🌐 RootRecord-Ecosystem
+
+**[RootRecord-Ecosystem](https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem)** is the central public context layer.
+
+It provides a flattened, sanitized view of the broader ecosystem so architecture, infrastructure, documentation, services, and supporting components can be understood together.
+
+It is intentionally **not** a replacement for the individual source repositories.
+
+Think of the distinction this way:
+
+~~~text
+RootRecord-Ecosystem
+"What does the whole system look like?"
+                │
+                ├── RootRecord-Library
+                │   "What do we know?"
+                │
+                ├── RootRecord-Pacific-Solar-Server
+                │   "What do we run?"
+                │
+                └── RootRecord-Database
+                    "What do we keep?"
+~~~
+
+The source repositories retain their own histories and remain the authoritative homes for component-specific development.
 
 ---
 
@@ -131,7 +147,7 @@ RootRecord uses GitHub not only as a place to store source code, but as part of 
 
 Changes can move through the ecosystem as durable commits:
 
-```text
+~~~text
 Desk / Runtime
       │
       ▼
@@ -148,9 +164,21 @@ Shared durable context
       │
       ▼
 Other agents / systems / sessions
-```
+~~~
 
 The result is a system where work can continue without every operator or agent needing to pass around fragments of code and context manually.
+
+---
+
+## 🔐 Public by design, sanitized by default
+
+The public organization is intentionally structured so that the public-facing ecosystem can be understood without publishing operational secrets.
+
+The public repositories must not contain credentials, private keys, recovery material, sensitive infrastructure identifiers, or unnecessary private runtime state.
+
+The umbrella repository is specifically maintained as a **sanitized public snapshot and context layer**.
+
+Private operational configuration and secrets remain outside public source control.
 
 ---
 
@@ -170,10 +198,11 @@ We build from a place where infrastructure, weather, energy, connectivity, and p
 
 | Resource | What you'll find |
 | --- | --- |
-| [🌺 GitHub Organization](https://github.com/RootRecord-Software-Solutions) | The RootRecord public ecosystem |
+| [🌐 RootRecord Ecosystem](https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem) | Canonical public umbrella and cross-system context |
 | [🧠 RootRecord Library](https://github.com/RootRecord-Software-Solutions/RootRecord-Library) | Architecture, context, operations, and work orders |
 | [☀️ Pacific Solar Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server) | Primary Pacific runtime |
-| [🗄️ RootRecord Database](https://github.com/RootRecord-Software-Solutions/RootRecord-Database) | Persistent data, media, and logs |
+| [🗄️ RootRecord Database](https://github.com/RootRecord-Software-Solutions/RootRecord-Database) | Persistent data, media, telemetry, and logs |
+| [🌺 GitHub Organization](https://github.com/RootRecord-Software-Solutions) | The complete public RootRecord organization |
 | [🌐 rootrecord.cloud](https://rootrecord.cloud) | Public web presence |
 
 ---
