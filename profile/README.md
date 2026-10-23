@@ -1,228 +1,90 @@
-# 🌺 RootRecord Software Solutions
+<div align="center">
 
-> **Software · Infrastructure · Automation · AI · Distributed Systems**
+# 🌺 RootRecord Software Systems
 
-RootRecord Software Solutions builds software, infrastructure, automation, AI systems, and distributed services as a durable, interconnected ecosystem.
+### Software for the world we're building.
 
-RootRecord is not a single application. It is a collection of systems with deliberately separated responsibilities: executable runtime, persistent data, operational knowledge, automation, security, communications, and intelligent agents.
+**Applications · Automation · Intelligent Systems · Real-World Infrastructure**
 
-The goal is straightforward:
+Building practical software, connected systems, and creative technology from Hawaiʻi.
 
-**Build systems that can be understood, operated, repaired, migrated, and extended without losing the context that makes them work.**
+[**Explore RootRecord →**](https://www.rootrecord.cloud/) &nbsp;·&nbsp; [Products](https://www.rootrecord.cloud/products) &nbsp;·&nbsp; [Services](https://www.rootrecord.cloud/services) &nbsp;·&nbsp; [Our Story](https://www.rootrecord.cloud/about)
 
----
-
-## 🧭 The RootRecord ecosystem
-
-The public organization now has a deliberately simple repository structure:
-
-~~~text
-                         🌺 ROOTRECORD
-                              │
-                              ▼
-                    🌐 ROOTRECORD ECOSYSTEM
-                    Public umbrella / context
-                              │
-          ┌───────────────────┼───────────────────┐
-          │                   │                   │
-          ▼                   ▼                   ▼
-     🧠 LIBRARY          ☀️ RUNTIME           🗄️ DATABASE
-     Knowledge           Execution            Persistence
-     & Context           & Services           & Data
-                              │
-                              ▼
-                    🏝️ DISTRIBUTED SYSTEMS
-                              │
-                    ┌─────────┴─────────┐
-                    ▼                   ▼
-             Pacific Solar        US Mainland
-                Runtime              Runtime
-~~~
-
-### The public repositories
-
-| Repository | Role |
-| --- | --- |
-| 🌐 **[RootRecord-Ecosystem](https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem)** | Canonical public umbrella, sanitized snapshot, cross-system context, and ecosystem reference |
-| 🧠 **[RootRecord-Library](https://github.com/RootRecord-Software-Solutions/RootRecord-Library)** | Architecture, agent context, operational knowledge, guides, and work orders |
-| ☀️ **[RootRecord-Pacific-Solar-Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server)** | Pacific runtime, automation, services, monitoring, security, communications, and domain execution |
-| 🗄️ **[RootRecord-Database](https://github.com/RootRecord-Software-Solutions/RootRecord-Database)** | Persistent data, media, logs, telemetry, and canonical data structures |
+</div>
 
 ---
 
-## 🌐 RootRecord-Ecosystem
+## Welcome
 
-**[RootRecord-Ecosystem](https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem)** is the central public context layer.
+**RootRecord Software Systems** is an evolving software and technology ecosystem bringing together useful applications, automation, AI-assisted workflows, data systems, and projects grounded in the physical world.
 
-It provides a flattened, sanitized view of the broader ecosystem so architecture, infrastructure, documentation, services, and supporting components can be understood together.
+We build for people who need technology to do something meaningful: organize their work, understand their land, operate their infrastructure, and turn ambitious ideas into useful tools.
 
-It is intentionally **not** a replacement for the individual source repositories.
+Our approach is simple: **build something real, make it understandable, and keep it working.**
 
-Think of the distinction this way:
+## ✨ What we build
 
-~~~text
-RootRecord-Ecosystem
-"What does the whole system look like?"
-                │
-                ├── RootRecord-Library
-                │   "What do we know?"
-                │
-                ├── RootRecord-Pacific-Solar-Server
-                │   "What do we run?"
-                │
-                └── RootRecord-Database
-                    "What do we keep?"
-~~~
+| Area | Our focus |
+| :--- | :--- |
+| 🗺️ **Mapping & land records** | Tools such as **Root GIS** for organizing property information, measurements, plans, and exports. Mapping records are not a substitute for a licensed land survey. |
+| 💻 **Software & applications** | Practical software for business operations, everyday workflows, and specialized needs. |
+| 🤖 **Intelligent systems** | AI-assisted work, agents, creative tools, and persistent project context—with defined responsibilities and human oversight. |
+| ⚙️ **Automation** | Repeatable workflows, scheduled processes, monitoring, and recovery-minded engineering. |
+| ☀️ **Field & infrastructure technology** | Explorations at the intersection of energy, environmental observations, connected devices, and resilient systems. |
+| 🎨 **Creative projects** | Writing, music, design, and experiments where technology serves creative expression. |
 
-The source repositories retain their own histories and remain the authoritative homes for component-specific development.
+Products vary in availability and maturity. For current offerings, capabilities, and terms, use the official [Products](https://www.rootrecord.cloud/products) and [Services](https://www.rootrecord.cloud/services) pages.
 
----
+## 🧭 Find your way
 
-## 🧠 Built for continuity
+| Destination | What you'll find |
+| :--- | :--- |
+| **[RootRecord.cloud](https://www.rootrecord.cloud/)** | The main website and introduction to the ecosystem |
+| **[Products](https://www.rootrecord.cloud/products)** | Software offerings and ways to get started |
+| **[Services](https://www.rootrecord.cloud/services)** | Software development, automation, and related services |
+| **[Solutions](https://www.rootrecord.cloud/solutions)** | Problems our work aims to solve |
+| **[About](https://www.rootrecord.cloud/about)** | The company, its direction, and the people behind the work |
+| **[Security](https://www.rootrecord.cloud/security)** | Our public approach to security and privacy |
+| **[Status](https://www.rootrecord.cloud/status)** | Public service information when available |
+| **[Ava Ivy](https://www.rootrecord.cloud/ava-ivy/)** | An independent creative corner of the RootRecord universe |
+| **[RootRecord Recipes](https://github.com/RootRecord-Software-Solutions/RootRecord-Recipes)** | A public GitHub collection |
 
-Systems accumulate history.
+### 📚 The RootRecord Library
 
-RootRecord treats that history as part of the system rather than disposable background information.
+We're preparing a dedicated **public library** for documentation, guides, articles, research, project stories, and creator links.
 
-Architecture decisions, work orders, operational context, verification records, runtime code, and persistent data each have a defined home. Git history provides another layer of continuity, allowing changes to become durable checkpoints that can be inspected across machines, sessions, and operators.
+It is being organized as a discoverable collection rather than a dump of internal files. The library will be linked here when its public release is ready.
 
-That separation matters.
+## 🧱 How we think about building
 
-**Code should have a home. Data should have a home. Knowledge should have a home.**
+**Reliability is a feature.** Systems should recover from interruptions, report meaningful failures, and distinguish a successful test from a successful real-world experience.
 
-When those boundaries remain clear, a system becomes easier to reason about as it grows.
+**Boundaries matter.** Code, live data, configuration, private records, creative material, and public documentation serve different purposes and should have appropriate homes.
 
----
+**Evidence beats assumptions.** A commit is not a deployment. A passing test is not a completed customer journey. A missing measurement is not zero.
 
-## ⚙️ What we're building
+**Continuity is part of the work.** Decisions, history, verified checkpoints, and handoffs should survive a new machine, team member, or working session.
 
-### 🤖 AI & intelligent agents
+**People stay in control.** Automation can take on substantial work while respecting privacy, scope, and the authority of the people it serves.
 
-Agent systems that can work with persistent context, operate within explicit boundaries, and hand work between sessions without requiring the entire history to be reconstructed every time.
+## 🌱 An ecosystem in progress
 
-### ⚙️ Automation & orchestration
+RootRecord brings together multiple projects and independently maintained systems. Some work is public; some is still under development; and some remains private for security, operational, creative, or customer reasons.
 
-Services that coordinate recurring work, synchronize systems, monitor runtime state, and keep routine operations moving without turning every task into manual intervention.
+Not every repository visible to organization members is intended for public access. We share **reviewed public work**, not internal source material by default.
 
-### 🌐 Distributed infrastructure
-
-Software and infrastructure designed to span machines, repositories, services, and locations while retaining clear operational boundaries.
-
-### 🔐 Security & monitoring
-
-Security-oriented runtime services, camera systems, operational evidence, and monitoring built around explicit verification rather than assumptions.
-
-### ⚡ Energy & environmental systems
-
-Automation and data systems for energy, weather, geology, and other real-world domains where software meets physical infrastructure.
-
-### 💬 Communications
-
-Messaging and network services that connect operators, agents, and runtime systems while keeping credentials and operational state in their proper boundaries.
+Our projects change, so the website and individual product pages remain the sources for current public offerings. The long-term goal is to make the whole ecosystem easier to explore and understand as it grows.
 
 ---
 
-## 🧱 Architecture with boundaries
+<div align="center">
 
-RootRecord deliberately separates:
+### 🌺 Built in Hawaiʻi. Designed to reach further.
 
-- **Runtime** — executable code and services
-- **Data** — persistent files, media, and logs
-- **Knowledge** — architecture, context, decisions, and work orders
-- **Automation** — orchestration and recurring operations
-- **Credentials** — kept outside public source control
-- **Verification** — evidence that distinguishes landed changes from running systems
+**Build it. Understand it. Keep it working.**
 
-A repository commit is a durable record of a change.
+[Website](https://www.rootrecord.cloud/) · [Explore products](https://www.rootrecord.cloud/products) · [Get in touch](https://www.rootrecord.cloud/about)
 
-It is **not**, by itself, proof that a runtime is deployed, active, or verified.
+<sub>© RootRecord Software Systems · Public organization overview</sub>
 
-That distinction is part of the architecture.
-
----
-
-## 🔄 A living ecosystem
-
-RootRecord uses GitHub not only as a place to store source code, but as part of the system's continuity model.
-
-Changes can move through the ecosystem as durable commits:
-
-~~~text
-Desk / Runtime
-      │
-      ▼
-Git repository
-      │
-      ▼
-Automated synchronization
-      │
-      ▼
-GitHub
-      │
-      ▼
-Shared durable context
-      │
-      ▼
-Other agents / systems / sessions
-~~~
-
-The result is a system where work can continue without every operator or agent needing to pass around fragments of code and context manually.
-
----
-
-## 🔐 Public by design, sanitized by default
-
-The public organization is intentionally structured so that the public-facing ecosystem can be understood without publishing operational secrets.
-
-The public repositories must not contain credentials, private keys, recovery material, sensitive infrastructure identifiers, or unnecessary private runtime state.
-
-The umbrella repository is specifically maintained as a **sanitized public snapshot and context layer**.
-
-Private operational configuration and secrets remain outside public source control.
-
----
-
-## 🌺 From Hawaiʻi, built for everywhere
-
-RootRecord is oriented from Hawaiʻi Island and built around a practical interest in resilient infrastructure, intelligent automation, distributed systems, and software that remains understandable as it grows.
-
-The environment matters.
-
-So does the engineering.
-
-We build from a place where infrastructure, weather, energy, connectivity, and physical systems are not abstract concepts—and where reliability has a very real meaning.
-
----
-
-## 📚 Explore RootRecord
-
-| Resource | What you'll find |
-| --- | --- |
-| [🌐 RootRecord Ecosystem](https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem) | Canonical public umbrella and cross-system context |
-| [🧠 RootRecord Library](https://github.com/RootRecord-Software-Solutions/RootRecord-Library) | Architecture, context, operations, and work orders |
-| [☀️ Pacific Solar Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server) | Primary Pacific runtime |
-| [🗄️ RootRecord Database](https://github.com/RootRecord-Software-Solutions/RootRecord-Database) | Persistent data, media, telemetry, and logs |
-| [🌺 GitHub Organization](https://github.com/RootRecord-Software-Solutions) | The complete public RootRecord organization |
-| [🌐 rootrecord.cloud](https://rootrecord.cloud) | Public web presence |
-
----
-
-## 🛠️ The work
-
-RootRecord is an evolving system.
-
-Some components are mature. Some are under active development. Some are being migrated, verified, or retired as the architecture becomes clearer.
-
-We document that work rather than hiding the messiness of building real systems.
-
-**The objective isn't to make the system look finished.**
-
-**The objective is to make the system understandable enough to keep building.**
-
----
-
-<p align="center">
-  <strong>Root Record Software Solutions</strong><br/>
-  <em>Software · Infrastructure · Automation · AI · Distributed Systems</em><br/><br/>
-  🌺 <strong>Build it. Understand it. Keep it working.</strong>
-</p>
+</div>
