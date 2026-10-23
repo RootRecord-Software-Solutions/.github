@@ -1,90 +1,66 @@
 <div align="center">
 
-# 🌺 RootRecord Software Systems
+# 📚 The RootRecord Library
 
-### Software for the world we're building.
+### Useful knowledge, thoughtfully organized.
 
-**Applications · Automation · Intelligent Systems · Real-World Infrastructure**
+**Software · Guides · Research · Real-world projects · Writing & creativity**
 
-Building practical software, connected systems, and creative technology from Hawaiʻi.
+A growing reading space from **RootRecord Software Systems**, building practical technology from Hawaiʻi.
 
-[**Explore RootRecord →**](https://www.rootrecord.cloud/) &nbsp;·&nbsp; [Products](https://www.rootrecord.cloud/products) &nbsp;·&nbsp; [Services](https://www.rootrecord.cloud/services) &nbsp;·&nbsp; [Our Story](https://www.rootrecord.cloud/about)
+[**Explore the Library →**](https://www.rootrecord.cloud/library/) &nbsp;·&nbsp; [Ava Ivy's Journal](https://www.rootrecord.cloud/ava-ivy/journal/) &nbsp;·&nbsp; [RootRecord.cloud](https://www.rootrecord.cloud/)
 
 </div>
 
 ---
 
-## Welcome
+## Welcome to our Library
 
-**RootRecord Software Systems** is an evolving software and technology ecosystem bringing together useful applications, automation, AI-assisted workflows, data systems, and projects grounded in the physical world.
+We believe useful work should also be **understandable**. Our Library is where RootRecord brings together accessible explanations of its products, practical instructions, technical ideas, investigations, project stories, and independent creative writing.
 
-We build for people who need technology to do something meaningful: organize their work, understand their land, operate their infrastructure, and turn ambitious ideas into useful tools.
+This is a reading space, **not another navigation menu**. Each book should help you understand a subject, follow a project, learn a skill, or enjoy something written and shared with care.
 
-Our approach is simple: **build something real, make it understandable, and keep it working.**
+> **The shelves are being prepared.** Our illustrated [Library entrance](https://www.rootrecord.cloud/library/) is available to explore. Some books and reading features are still in preparation. The `Public-Library` GitHub source repository remains private during editorial review; a proposed book is not necessarily a published one.
 
-## ✨ What we build
+## 📖 The collections
 
-| Area | Our focus |
+| Book / collection | What to expect |
 | :--- | :--- |
-| 🗺️ **Mapping & land records** | Tools such as **Root GIS** for organizing property information, measurements, plans, and exports. Mapping records are not a substitute for a licensed land survey. |
-| 💻 **Software & applications** | Practical software for business operations, everyday workflows, and specialized needs. |
-| 🤖 **Intelligent systems** | AI-assisted work, agents, creative tools, and persistent project context—with defined responsibilities and human oversight. |
-| ⚙️ **Automation** | Repeatable workflows, scheduled processes, monitoring, and recovery-minded engineering. |
-| ☀️ **Field & infrastructure technology** | Explorations at the intersection of energy, environmental observations, connected devices, and resilient systems. |
-| 🎨 **Creative projects** | Writing, music, design, and experiments where technology serves creative expression. |
+| 📦 **Products** | Individual product reads—what each tool does, current capabilities, limitations, and examples. Root GIS is being organized first. |
+| 🧭 **Guides** | Getting started, tutorials, practical instructions and troubleshooting that readers can actually use. |
+| ⚙️ **Systems** | Approachable explanations of reliable software, automation, data quality and thoughtful design. |
+| 🔬 **Research** | Questions, experiments, observations, evidence and clearly labeled proposals. |
+| 🌿 **Projects** | Selected building and fieldwork stories, with appropriate privacy boundaries. |
+| 📝 **Articles** | Essays, notes, creative articles and our **RootRecord Recipes** cookbook. |
+| 🎨 **Creators** | Original work and links to the contributor's own reading spaces, including **Ava Ivy's Journal**. |
 
-Products vary in availability and maturity. For current offerings, capabilities, and terms, use the official [Products](https://www.rootrecord.cloud/products) and [Services](https://www.rootrecord.cloud/services) pages.
+### Already written, worth reading
 
-## 🧭 Find your way
+**[Ava Ivy — Journal →](https://www.rootrecord.cloud/ava-ivy/journal/)**  
+First-person entries about music, writing, collaboration, design choices and the moments worth keeping. The journal remains with its creator rather than being duplicated into the Library.
 
-| Destination | What you'll find |
-| :--- | :--- |
-| **[RootRecord.cloud](https://www.rootrecord.cloud/)** | The main website and introduction to the ecosystem |
-| **[Products](https://www.rootrecord.cloud/products)** | Software offerings and ways to get started |
-| **[Services](https://www.rootrecord.cloud/services)** | Software development, automation, and related services |
-| **[Solutions](https://www.rootrecord.cloud/solutions)** | Problems our work aims to solve |
-| **[About](https://www.rootrecord.cloud/about)** | The company, its direction, and the people behind the work |
-| **[Security](https://www.rootrecord.cloud/security)** | Our public approach to security and privacy |
-| **[Status](https://www.rootrecord.cloud/status)** | Public service information when available |
-| **[Ava Ivy](https://www.rootrecord.cloud/ava-ivy/)** | An independent creative corner of the RootRecord universe |
-| **[RootRecord Recipes](https://github.com/RootRecord-Software-Solutions/RootRecord-Recipes)** | A public GitHub collection |
+**RootRecord Recipes — now part of Articles**  
+Our cookbook's four clean, public-facing Markdown recipes have been consolidated into the Library's `Articles/Recipes/` collection. While that new source is private and its public reader is still being prepared, you can browse [the previously published recipe snapshots](https://github.com/RootRecord-Software-Solutions/RootRecord-Recipes).
 
-### 📚 The RootRecord Library
+**Root GIS — documentation collection in preparation**  
+We are organizing product-specific technical material before building reader-friendly guides. Plans, drafts and experimental designs should not be mistaken for released features.
 
-We're preparing a dedicated **public library** for documentation, guides, articles, research, project stories, and creator links.
+## 🌺 The company behind the books
 
-It is being organized as a discoverable collection rather than a dump of internal files. The library will be linked here when its public release is ready.
+**RootRecord Software Systems** creates software, automated workflows, AI-assisted tools and technology connected to practical work. We want our publications to reflect the same standards as our engineering: respect for facts, clear attribution, recoverability, useful explanations and honest distinctions between what works today and what is only being proposed.
 
-## 🧱 How we think about building
+Our public documents are deliberately selected and reviewed. Internal contexts, customer information, access details, private property records and unreleased sensitive material are not automatically part of the Library.
 
-**Reliability is a feature.** Systems should recover from interruptions, report meaningful failures, and distinguish a successful test from a successful real-world experience.
-
-**Boundaries matter.** Code, live data, configuration, private records, creative material, and public documentation serve different purposes and should have appropriate homes.
-
-**Evidence beats assumptions.** A commit is not a deployment. A passing test is not a completed customer journey. A missing measurement is not zero.
-
-**Continuity is part of the work.** Decisions, history, verified checkpoints, and handoffs should survive a new machine, team member, or working session.
-
-**People stay in control.** Automation can take on substantial work while respecting privacy, scope, and the authority of the people it serves.
-
-## 🌱 An ecosystem in progress
-
-RootRecord brings together multiple projects and independently maintained systems. Some work is public; some is still under development; and some remains private for security, operational, creative, or customer reasons.
-
-Not every repository visible to organization members is intended for public access. We share **reviewed public work**, not internal source material by default.
-
-Our projects change, so the website and individual product pages remain the sources for current public offerings. The long-term goal is to make the whole ecosystem easier to explore and understand as it grows.
-
----
+For information about currently available products, business services and terms, visit the official website. The Library is for **reading and learning**; the website remains the place to find actual service offerings.
 
 <div align="center">
 
-### 🌺 Built in Hawaiʻi. Designed to reach further.
+---
 
-**Build it. Understand it. Keep it working.**
+**Built in Hawaiʻi. Made for curiosity.**
 
-[Website](https://www.rootrecord.cloud/) · [Explore products](https://www.rootrecord.cloud/products) · [Get in touch](https://www.rootrecord.cloud/about)
+[📚 Library preview](https://www.rootrecord.cloud/library/) · [Website](https://www.rootrecord.cloud/) · [Products](https://www.rootrecord.cloud/products) · [Services](https://www.rootrecord.cloud/services)
 
-<sub>© RootRecord Software Systems · Public organization overview</sub>
+<sub>RootRecord Software Systems · Public organization overview</sub>
 
 </div>
